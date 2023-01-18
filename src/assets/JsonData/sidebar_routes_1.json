@@ -1,0 +1,14 @@
+[  
+{
+    "display_name": "Videos monuments",
+    "route": "/user",
+    "icon": "bx bx-user "
+},
+    
+  
+    {
+        "display_name": "Upload video",
+        "route": "/user/upload",
+        "icon": "bx bx-category-alt"
+    }
+]

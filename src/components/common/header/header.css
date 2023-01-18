@@ -1,0 +1,116 @@
+header {
+  background-color: #fff;
+  height: 10vh;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+header img {
+  width: 70px;
+}
+.placeSearch {
+  
+  width: 60%;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  border: 2px solid #0D99FF;
+  border-radius: 4px;
+  background-color: white;
+  margin-right: 10px;
+}
+.placeSearch>button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  padding: 5px;
+}
+
+.placeSearch>input {
+  width: 100%;
+}
+
+.placeSearch ::selection {
+  border-color: #23e5db;
+  outline-color: #23e5db;
+}
+
+.placeSearch>input {
+  border-color: transparent;
+  outline-color: transparent;
+}
+header a {
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+header a:hover {
+  color: #0D99FF;
+}
+header span {
+  width: auto;
+  padding: 0px 6px;
+  background: #0D99FF;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+}
+header h4 {
+  font-weight: 500;
+  margin-right: 20px;
+}
+header .toggle {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+  header img {
+    margin-top: 30px;
+  }
+  header .button {
+    display: none;
+  }
+  header .nav .flex {
+    display: none;
+  }
+  header .toggle {
+    display: block;
+    margin-top: 20px;
+  }
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #0D99FF;
+    padding: 20px;
+  }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+}
+select{
+  background: #fff;
+  border: none;
+  outline: none;
+  box-shadow: 0 5px 20px rgba(17, 1, 1, 0.18);
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+ select option{
+  padding: 12px 20px;
+  cursor: pointer;
+}
+ select option:hover{
+  background: #62baea;
+  color: #fff;
+}

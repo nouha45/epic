@@ -1,0 +1,18 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/admin",
+        "icon": "bx bx-category-alt"
+    },
+   
+    {
+        "display_name": "settings",
+        "route": "/admin/settings",
+        "icon": "bx bx-cog"
+    },
+    {
+        "display_name": "R. Monuments",
+        "route": "/admin/responsables",
+        "icon": "bx bx-face"
+    }
+]

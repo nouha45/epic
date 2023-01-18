@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bx-show",
+        "count": "10,995",
+        "title": "Nb visiteurs"
+    },
+    {
+        "icon": "bx bx-line-chart",
+        "count": "2,001",
+        "title": "Nb abonnées"
+    },
+    {
+        "icon": "bx bx-command",
+        "count": "632",
+        "title": "Nb responsables monuments"
+    },
+    {
+        "icon": "bx bx-plus",
+        "count": "711",
+        "title": "Nb visites qutiodiennes"
+    }
+]
